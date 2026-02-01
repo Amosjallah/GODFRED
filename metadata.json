@@ -1,0 +1,7 @@
+{
+  "name": "TSALACH DESIGNS",
+  "description": "Premium architecture, structural, and construction company serving Ghana.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
