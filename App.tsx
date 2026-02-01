@@ -1,18 +1,18 @@
 
 import React from 'react';
 import { HashRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import AIAssistant from './components/AIAssistant';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+import AIAssistant from './components/AIAssistant.tsx';
 
 // Pages
-import Home from './pages/Home';
-import AboutPage from './pages/AboutPage';
-import ServicesPage from './pages/ServicesPage';
-import ServiceDetailPage from './pages/ServiceDetailPage';
-import PortfolioPage from './pages/PortfolioPage';
-import ProjectDetailPage from './pages/ProjectDetailPage';
-import ContactPage from './pages/ContactPage';
+import Home from './pages/Home.tsx';
+import AboutPage from './pages/AboutPage.tsx';
+import ServicesPage from './pages/ServicesPage.tsx';
+import ServiceDetailPage from './pages/ServiceDetailPage.tsx';
+import PortfolioPage from './pages/PortfolioPage.tsx';
+import ProjectDetailPage from './pages/ProjectDetailPage.tsx';
+import ContactPage from './pages/ContactPage.tsx';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
